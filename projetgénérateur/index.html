@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Codebar Generator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+   <link rel="stylesheet" href="style.css">
+   <script src='main.js'></script>
+   <!--code bar link  library--> 
+   <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.6/dist/JsBarcode.all.min.js"></script>
+   <!--code bar link --> 
+    <script src="https://cdnjs.cloudflare.com/
+    ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js" 
+    integrity="sha512-GsLlZN/3F2ErC5ifS5QtgpiJtWd43JWSuIgh7mbzZ8zBps+dvLusV+eNQATqgA/HdeKFVgA5v3S/cIrLF7QnIg==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+    </script>
+</head>
+<body>
+    <section>  
+        <h4> Générateur de Code-Barres</h4>
+        <div class="search_bar">
+            <input type="text" placeholder="Entrer un Texte ...">
+            <button id="button_code_id">Générer</button>
+        </div>
+        <div id="box">
+            <img src="barcode.png" alt="code bar">
+        </div>
+        <div id="pdf_box"></div>
+     </section>
+</body>
+</html>
